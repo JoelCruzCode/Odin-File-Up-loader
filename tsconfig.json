@@ -1,0 +1,14 @@
+
+{
+  "compilerOptions": {
+    "target": "ESNext",              // Latest ECMAScript version
+    "module": "ESNext",              // Use ESM
+    "moduleResolution": "node",      // Node resolution strategy
+    "esModuleInterop": true,         // For compatibility with CommonJS modules
+    "skipLibCheck": true,            // Skipping library checks for faster builds
+    "strict": true,                  // Optional but recommended
+    "resolveJsonModule": true        // If you're using JSON imports
+  },
+  "include": ["server/src/**/*"],     // Path to your TypeScript files
+  "exclude": ["node_modules"]
+}

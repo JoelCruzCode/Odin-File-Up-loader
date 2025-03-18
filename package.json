@@ -1,0 +1,22 @@
+{
+  "name": "odin-file-up-loader",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+
+"dev": "nodemon --exec 'node --import ./server/src/bootstrap.mjs --no-warnings server/src/app.ts'",
+    "build": "tsc",
+    "start": "nodemon dist/server/app.js"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node": "^20.19.0"
+  }
+}
